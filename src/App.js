@@ -13,6 +13,7 @@ function App() {
         <Main products={products}></Main>
         <Cart></Cart>
       </div>
+      <div><Main products={products}></Main></div>
     </div>
   );
 }
