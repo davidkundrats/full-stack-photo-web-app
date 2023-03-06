@@ -1,0 +1,17 @@
+import React from "react";
+import Product from "./Product";
+
+export default function Top(props) {
+  const { products } = props;
+
+  return (
+    <main className="block col-2">
+      <h2>Prints</h2>
+      <div className="row">
+        {products.map((product) => (
+          <Product key={product.id} product={product}></Product>
+        ))}
+      </div>
+    </main>
+  );
+        }    

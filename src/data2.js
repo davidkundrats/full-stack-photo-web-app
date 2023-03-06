@@ -1,27 +1,27 @@
-import image4 from "./assets/img1.jpg";
-import image5 from "./assets/img2.jpg";
-import image6 from "./assets/img3.jpg";
+import image4 from "./assets/img4.jpg";
+import image5 from "./assets/img5.jpg";
+import image6 from "./assets/img6.jpg";
 
-const data = {
-    products: [
+const data2 = {
+    productsMid: [
       {
         id: "4",
-        name: 1,
+        name: 4,
         price: 15,
         image: image4,
       },
       {
         id: "5",
-        name: 2,
+        name: 5,
         price: 15,
         image: image5,
       },
       {
         id: "6",
-        name: 3,
+        name: 6,
         price: 15,
         image: image6,
       },
     ],
   };
-  export default data;
+  export default data2;
