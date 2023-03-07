@@ -11,8 +11,8 @@ import { ShopContexProvider } from "./context/shop-context";
 
 function App() {
   const { products } = data;
-  const { productsMid } = data2; 
-  const { productsBot } = data3; 
+  const { productsMid } = data2;
+  const { productsBot } = data3;
 
   return (
     <div className="App">
@@ -22,12 +22,12 @@ function App() {
         <Cart></Cart>
       </div>
       <ShopContexProvider>
-      <div><Top products={products}></Top></div>
-      <div><Middle productsMid = {productsMid}></Middle> </div>
-      <div><Bottom productsBot = {productsBot}></Bottom></div>
+        <div><Top products={products}></Top></div>
+        <div><Middle productsMid={productsMid}></Middle> </div>
+        <div><Bottom productsBot={productsBot}></Bottom></div>
       </ShopContexProvider>
-      </div>
-    
+    </div>
+
   );
 }
 

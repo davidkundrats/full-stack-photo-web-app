@@ -2,8 +2,8 @@ import React from "react";
 import Product from "./Product";
 
 export default function Middle(props) {
-  const { productsBot } = props; 
-  
+  const { productsBot } = props;
+
   return (
     <main className="block col-2">
       <h2>Prints</h2>
@@ -13,5 +13,5 @@ export default function Middle(props) {
         ))}
       </div>
     </main>
- );
+  );
 }
