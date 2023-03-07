@@ -7,6 +7,7 @@ import data3 from "./data3";
 import FAQ from "./components/FAQ";
 import Middle from "./components/Middle";
 import Bottom from "./components/Bottom";
+import { ShopContexProvider } from "./context/shop-context";
 
 function App() {
   const { products } = data;
@@ -20,10 +21,13 @@ function App() {
         <FAQ></FAQ>
         <Cart></Cart>
       </div>
+      <ShopContexProvider>
       <div><Top products={products}></Top></div>
       <div><Middle productsMid = {productsMid}></Middle> </div>
       <div><Bottom productsBot = {productsBot}></Bottom></div>
+      </ShopContexProvider>
       </div>
+    
   );
 }
 
