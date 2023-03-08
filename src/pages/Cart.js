@@ -1,11 +1,10 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../context/shop-context";
-import CartItem from "./CartItem";
+import CartItem from "../components/CartItem";
 import allProducts from "../data/fulldata";
 
 export default function Cart() {
-  const { cartItems } = useContext(ShopContext);
-
+  const { cartItems } = useContext(ShopContext)
   return (
     <aside className="block col-1">
       <div>

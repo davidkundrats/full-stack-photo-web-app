@@ -5,13 +5,13 @@ export default function Header() {
   return (
     <header className="row block center">
       <div>
-        <a href="/">
+        <Link to="/">
           <h1>bsp.photo</h1>
-        </a>
+        </Link>
       </div>
       <div>
-        <a href="/cart">Checkout </a>
+        <Link to="/cart">Checkout </Link>
       </div>
-    </header>
+    </header >
   );
 }
